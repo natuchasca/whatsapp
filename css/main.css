@@ -5,6 +5,57 @@
 
 
 /* --- CUADRO CONTACTOS --- */
+/* PARTE GLORIA */
 
+.conver {
+	width: 300px;
+	height: 70px;
+	border: 1px solid #BFBFBF;
+	margin-left: 30px;
+}
+
+.perfil {
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-image: 50% auto;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.conver1 {
+	width: 130px;
+	height: 50px;
+	border: 1px solid #ffffff;
+	margin-left: 70px;
+	
+}
+
+.conver1 h6 {
+	color: #6B6B6B;
+}
+
+.conver1 p {
+	font-size: 10px;
+	color: #A6A6A6;
+	float: left;
+}
+
+.dia {
+	border: 1px solid #ffffff;
+	width: 50px;
+	height: auto;
+	margin-top: -40px;
+	margin-left: 70px;
+	float: left;
+}
+
+.dia p {
+	font-size: 10px;
+	color: #A6A6A6;
+}
 
 /* --- CUADRO MENSAJE --- */
