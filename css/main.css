@@ -6,5 +6,22 @@
 
 /* --- CUADRO CONTACTOS --- */
 
+img{
+	width: 200%;
+	float : left;
+	border-radius: 50%;
+	margin-top:20%;
 
+}
+#der{
+	float: right;
+	bottom: 5%;
+}
+#borde{
+	border: solid black;
+	width:300px;
+}
+#texto{
+	bottom: 4%;
+}
 /* --- CUADRO MENSAJE --- */
