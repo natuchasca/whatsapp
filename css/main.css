@@ -9,21 +9,97 @@ body {
 
 
 /* --- CUADRO CONTACTOS --- */
+.cuadro-contacto-contenedor {
+	height: auto;
+	width: 337px;
+}
+
+.header-contacto {
+	background-color: #DCDCDC;
+	height: 65px;
+	width: 338px;
+	padding: 10px;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+.cuadro-contacto {
+	background-color: white;
+	height: 65px;
+	width: 320px;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+.icons-contacto {
+	float: right;
+	margin-top: 10px;
+}
+
+.icon-message {
+	margin-right: 10px;
+}
+
+.buscar {
+	height: 65px;
+	width: 338px;
+	background-color: white;
+	text-align: center;
+	padding-top: 15px;
+	border-bottom: 1px solid #B0B0B0;
+	margin: 0 auto;
+}
+
+i.icon-search {
+	font-size: 14px;
+}
+
+input.buscar-input {
+	width: 90%;
+	color: #B0B0B0;
+	padding: 5px 5px;
+	border-radius: 5px;
+	border: 1px solid #B0B0B0;
+}
+
+.contactos {
+	width: 337px;
+	height: 100%;
+	max-height: 400px;
+	overflow: auto;
+}
+
+.nombre-contacto {
+	font-size: 14px;
+	color: grey;
+	padding-top: 5px;
+}
+
+.estado {
+	line-height: 0px;
+	color: grey;
+	font-size: 12px;
+}
+
+.hora-fecha {
+	text-align: right;
+	margin-top: -37px;
+	color: #49484D;
+	font-size: 12px;
+}
+
+.cuadro-contacto {
+	padding: 7px;
+}
 
 
 /* --- CUADRO MENSAJE --- */
 
-.cuadro-mensaje {
-	width: 100%;
-	height: 100%;
-}
-
 .contacto-mensaje {
 	background-color: #DCDCDC;
 	width: 100%;
-	height: 100%;
+	height: 65px;
 	padding: 10px;
 	border-bottom: 1px solid #B0B0B0;
+	border-left: 1px solid #B0B0B0;
 }
 
 .foto-mensaje-perfil {
@@ -46,10 +122,15 @@ body {
 	margin-top: -40px;
 }
 
-.icon-mensaje-up {
-	font-size: 30px;
+i {
+	font-size: 20px;
 	color: #49484D;
 }
+
+.icon-attachment {
+	margin-right: 10px;
+}
+
 
 .mensajes {
 	background-image: url(../image/chat-panel-bg.png);
@@ -63,18 +144,19 @@ body {
 }
 
 img {
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
+	width: 45px;
+	height:45px;
+	border-radius: 45px;
 }
 
 .mensaje {
 	background-color: white;
-	height: 70px;
+	height: 65px;
 	width: 300px;
 	border-radius: 10px;
 	margin: 5px 0;
-	padding: 5px;
+	padding: 10px;
+	clear: both;
 }
 
 .azul {
@@ -95,27 +177,29 @@ img {
 
 .fecha {
 	text-align: right;
-	line-height: 2px;
+	font-size: 12px;
+	margin-top: -12px;
 }
 
 .mensaje-respuesta1 {
 	background-color: #B0D87A;
 	height: 50px;
-	width: 200px;
+	width: 230px;
 	border-radius: 10px;
 	margin: 5px 0;
-	padding: 5px;
-	margin-left: 70%;
+	padding: 10px;
+	float: right;
 }
 
 .mensaje-respuesta2 {
 	background-color: #B0D87A;
 	height: 50px;
-	width: 150px;
+	width: 170px;
 	border-radius: 10px;
 	margin: 5px 0;
-	padding: 5px;
+	padding: 10px;
 	margin-left: 78%;
+	float: right;
 }
 
 .escribir-mensaje {
@@ -129,8 +213,11 @@ img {
 	margin: 0 10px;
 }
 
-input {
-	width: 80%;
+input.escribir {
+	width: 85%;
+	padding: 5px 5px;
+	border-radius: 5px;
+	border: none;
 }
 
 .icon-mic {
